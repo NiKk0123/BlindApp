@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Logout</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="logOut()">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ 
+ <h2> Welcome User,</h2>
+  <p>
+    <h4 align="center">Thanks for choosing Automatic Blinds with Arduino-Based Remote Control</h4>
+  
+  
+  <h5>Blinds</h5>
+  <p align="center">
+  <button ion-button color="secondary" icon-left>
+    <ion-icon name='arrow-back'></ion-icon>
+   Open Blinds
+  </button>
+  <button ion-button color="danger" outline icon-only>
+    <ion-icon name='remove-circle' is-active="false"></ion-icon>Stop  
+  </button>
+  <button ion-button color="black" icon-right>
+    Close Blinds 
+    <ion-icon name='arrow-forward'></ion-icon>
+  </button>
+</p>
+<hr>
+<h5>Angle of Slats</h5>
+<p align="center">
+    <button ion-button color="secondary" icon-left>
+      <ion-icon name='arrow-back'></ion-icon>
+     Open Slats
+    </button>
+    <button ion-button color="danger" outline icon-only>
+      <ion-icon name='remove-circle' is-active="false"></ion-icon>Stop 
+    </button>
+    <button ion-button color="black" icon-right>
+      Close Slats 
+      <ion-icon name='arrow-forward'></ion-icon>
+    </button>
+  </p>
+</ion-content>

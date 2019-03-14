@@ -1,0 +1,7 @@
+{
+  "name": "email-firebase-sdk",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
